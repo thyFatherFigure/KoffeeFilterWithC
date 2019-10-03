@@ -126,16 +126,9 @@ void arrayToStringExec(int *array, int length, int currentIndex) {
  * EXAMPLES:
  *   pre: array = {1, 2, 3, 4}
  *   INPUT: (array, 4)
- *   OUTPUT: [1],[2],[3],[4],
- *
- *   pre: array = {}
- *   INPUT: (array, 0)
- *   OUTPUT:
- *
- *   pre: array = {1, 2, 3, 4}
- *   INPUT: (array, 3)
- *   OUTPUT: [1],[2],[3],
+ *   OUTPUT: [1],[2],[3],[4]
  */
+
 void arrayToString(int *array, int length) {
   arrayToStringExec(array, length, 0);
 }
