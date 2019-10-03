@@ -1,0 +1,19 @@
+
+The list below is partially ordered by insertion sort up until 5.
+How many comparisons and swaps are needed to sort the 5?
+[1 3 4 8 9 5 2]
+
+
+
+Comparisons:
+5 < 9
+5 < 8
+5 < 4
+
+3 st
+
+Swappes:
+5, 9
+5, 8
+
+2 st

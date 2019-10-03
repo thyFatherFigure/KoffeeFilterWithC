@@ -1,0 +1,17 @@
+
+Which method runs faster for each of the following items, selection sort or insertion sort?
+a) array with all keys identical
+b) sorted array
+c) array in reverse order
+
+
+a)
+insertion sort
+
+b)
+insertion sort
+
+c)
+selection sort
+
+equal amount of comparisons but has less swaps.

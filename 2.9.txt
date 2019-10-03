@@ -1,0 +1,182 @@
+
+
+
+
+for i in {1..30};
+do
+time ./a.out $i < 10000.txt;
+echo $i;
+done
+
+Best results:
+
+real    0m0.145s
+user    0m0.141s
+sys     0m0.016s
+19
+
+real    0m0.145s
+user    0m0.141s
+sys     0m0.000s
+23
+
+real    0m0.145s
+user    0m0.141s
+sys     0m0.016s
+25
+
+Achieved with cutoffs: 19, 23, 25
+
+
+
+Output:
+
+real    0m0.171s
+user    0m0.141s
+sys     0m0.016s
+1
+
+real    0m0.149s
+user    0m0.141s
+sys     0m0.016s
+2
+
+real    0m0.152s
+user    0m0.141s
+sys     0m0.016s
+3
+
+real    0m0.150s
+user    0m0.141s
+sys     0m0.000s
+4
+
+real    0m0.148s
+user    0m0.141s
+sys     0m0.016s
+5
+
+real    0m0.149s
+user    0m0.125s
+sys     0m0.031s
+6
+
+real    0m0.149s
+user    0m0.141s
+sys     0m0.016s
+7
+
+real    0m0.151s
+user    0m0.141s
+sys     0m0.016s
+8
+
+real    0m0.149s
+user    0m0.141s
+sys     0m0.016s
+9
+
+real    0m0.149s
+user    0m0.141s
+sys     0m0.016s
+10
+
+real    0m0.151s
+user    0m0.141s
+sys     0m0.016s
+11
+
+real    0m0.155s
+user    0m0.125s
+sys     0m0.016s
+12
+
+real    0m0.150s
+user    0m0.125s
+sys     0m0.000s
+13
+
+real    0m0.158s
+user    0m0.125s
+sys     0m0.016s
+14
+
+real    0m0.295s
+user    0m0.156s
+sys     0m0.016s
+15
+
+real    0m0.166s
+user    0m0.141s
+sys     0m0.016s
+16
+
+real    0m0.148s
+user    0m0.125s
+sys     0m0.016s
+17
+
+real    0m0.148s
+user    0m0.141s
+sys     0m0.000s
+18
+
+real    0m0.145s
+user    0m0.141s
+sys     0m0.016s
+19
+
+real    0m0.146s
+user    0m0.125s
+sys     0m0.016s
+20
+
+real    0m0.149s
+user    0m0.141s
+sys     0m0.016s
+21
+
+real    0m0.147s
+user    0m0.125s
+sys     0m0.016s
+22
+
+real    0m0.145s
+user    0m0.141s
+sys     0m0.000s
+23
+
+real    0m0.149s
+user    0m0.141s
+sys     0m0.000s
+24
+
+real    0m0.145s
+user    0m0.141s
+sys     0m0.016s
+25
+
+real    0m0.146s
+user    0m0.125s
+sys     0m0.000s
+26
+
+real    0m0.149s
+user    0m0.141s
+sys     0m0.000s
+27
+
+real    0m0.147s
+user    0m0.125s
+sys     0m0.016s
+28
+
+real    0m0.148s
+user    0m0.141s
+sys     0m0.000s
+29
+
+real    0m0.147s
+user    0m0.125s
+sys     0m0.031s
+30
